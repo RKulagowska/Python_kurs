@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+
+import rocket.data
+
+# dir(rocket.data)
+
+# %% 
+dane = rocket.data.get_data()
+
+
+# %% 
+import rocket.algorytmy
+
+# %% 
+dir(rocket.algorytmy)
+
+rocket.algorytmy.drzewa_decyzyjne()
+
+# %% 
+from rocket.algorytmy import drzewa_decyzyjne
+
+# %% 
+drzewa_decyzyjne()
+
+# %%
+from rocket.funkcje.stat import mean
+
+# %%
+mean(dane)
+
+
+
+
